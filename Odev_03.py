@@ -1,10 +1,6 @@
-
 vize1 = int(input("Vize 1 notunuzu giriniz : \n"))
 vize2 = int(input("Vize 2 notunuzu giriniz : \n"))
 final = int(input("Final notunuzu giriniz : \n"))
-
-
-
 
 def puanHesapla(vize1, vize2, final):
     if 0 <= vize1 < 100 and 0 <= vize2 < 100 and 0 <= final < 100:
